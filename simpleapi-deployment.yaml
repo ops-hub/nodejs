@@ -20,8 +20,8 @@ spec:
         image: hsivabc/nodeapi:latest
         ports:
         - containerPort: 9001
-#      nodeSelector:
-#        servicetype: mstentityv1service
+      nodeSelector:
+        servicetype: simpleapi
 #      imagePullSecrets:
 #      - name: nexus 
       dnsConfig:
